@@ -1,5 +1,8 @@
 package com.apirestpethealth.apirestpethealth.repositories;
 
-public class VeterinarioRepository {
-    
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.apirestpethealth.apirestpethealth.entities.Veterinario;
+
+public interface VeterinarioRepository extends JpaRepository<Veterinario, Integer> {
+
 }

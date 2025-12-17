@@ -1,5 +1,8 @@
 package com.apirestpethealth.apirestpethealth.repositories;
 
-public class MascotaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.apirestpethealth.apirestpethealth.entities.Mascota;
+
+public interface MascotaRepository extends JpaRepository<Mascota, Integer> {
     
 }
